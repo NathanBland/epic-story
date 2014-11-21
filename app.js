@@ -19,7 +19,9 @@ app.engine('html', hbs.__express);
 
 app.set('port', process.env.PORT || 8000);
 app.set('ip', process.env.IP || '0.0.0.0');
+
 app.use(express.static('public'));
+
 app.use(bodyParser.urlencoded({
     extended: false
 }));

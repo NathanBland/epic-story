@@ -1,0 +1,20 @@
+<article class="pure-g">
+    <section class="pure-u-1">
+        {{#each desc}}
+        <h1>{{title}}</h1>
+        <p>{{text}}</p>
+        {{/each }}
+    </section>
+    <section class="pure-u-1-3">
+        {{#each example }}
+        <h2>{{title}}</h2>
+        <p>{{text}}</p>
+        {{/each}}
+    </section>
+    <section class="pure-u-2-3">
+        <form action="" method="POST">
+            <textarea name="section" class="pure-input storyContent" placeholder="Section Content goes here =)">{{#if content}} {{#each content}} {{body}} {{/each}} {{/if}}</textarea>
+            <button type="submit" class="pure-button pure-button-primary">Save</button>
+        </form>
+    </section>
+</article>

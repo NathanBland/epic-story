@@ -6,9 +6,9 @@ exports.setup = function(app) {
         next();
     });
     // Register the routes in order.
-    //var auth = require('./auth');
+    var auth = require('./auth');
     var routes = require('./routes');
-    //router.use(auth.setup(app));
+    router.use(auth.setup(app));
     router.use(routes.setup(app));
     return router;
 };

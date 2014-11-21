@@ -1,0 +1,19 @@
+<form class="pure-form pure-form-aligned center" action="/login" method="POST">
+    <h2>Login to continue your story!</h2>
+    {{> notifications}}
+    <fieldset>
+        <div class="pure-control-group">
+            <label for="name">Username</label>
+            <input id="name" name="username" type="text" placeholder="Username">
+        </div>
+
+        <div class="pure-control-group">
+            <label for="password">Password</label>
+            <input id="password" name="password" type="password" placeholder="Password">
+        </div>
+    </fieldset>
+    <div class="pure-controls">
+        <button type="submit" class="pure-button ">Login</button>
+    </div>
+
+</form>

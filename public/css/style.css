@@ -1,0 +1,68 @@
+body {
+    width: 100%;
+}
+main {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.landing-title {
+    text-align: center;
+}
+.departure {
+    background-color: #C35858;
+}
+.initiation {
+    background-color: #42556E;
+}
+.return {
+    background-color: #FFFF64;
+}
+.center {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+/* Dash Styling */
+
+.storyThumb {
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.storyThumb .fa {
+    color: rgba(140, 101, 43, 1);
+}
+/* End Dash Styling */
+/* story page */
+
+.story .pure-g {
+    padding-top: .5em;
+    padding-bottom: .5em;
+    box-shadow: -2px 3px 5px #888888;
+    margin-top: 1em;
+    background-color: #F6F6F6;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.story div section div {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* end story page */
+/* Story Edit Page */
+
+.editStory {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+/* End Story Edit Page */
+/* edit section page */
+
+form .storyContent {
+    width: 100%;
+    min-height: 20em;
+}
+/* end edit section page */

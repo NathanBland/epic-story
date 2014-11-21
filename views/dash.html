@@ -1,0 +1,18 @@
+<article class="pure-g">
+    {{#unless stories}}
+    <section class="noContacts">
+        <h1 class="pure-u-1">Nothing to show <i class="fa fa-frown-o"></i></h1>
+        <p class="pure-u-1">Try making a new story!</p>
+    </section>
+    {{/unless}}
+    {{# stories}}
+    <section class="pure-u-1-4">
+        <div class="storyThumb">
+            <a href="/story/{{id}}" style="text-decoration: none; color: black;">
+            <i class="fa fa-book fa-fw fa-5x" style="font-size: 550%;"></i>
+            <h2>{{title}}</h2>
+            </a>
+        </div>
+    </section>
+    {{/stories}}
+</article>
